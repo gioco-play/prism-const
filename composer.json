@@ -1,0 +1,18 @@
+{
+    "name": "gioco-plus/prism-const",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xuan Yang",
+            "email": "xuan.yang@goldenf.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "GiocoPlus\\PrismConst\\": "src/"
+        }
+    },
+    "extra": {
+    }
+}
