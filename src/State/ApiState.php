@@ -48,6 +48,11 @@ class ApiState {
         'msg' => '更新失敗, 請檢查資料（若資料無異動視為更新失敗）'
     ];
 
+    const GAME_URL_EXPIRED = [
+        'code' => 6,
+        'msg' => '遊戲連結已失效'
+    ];
+
     const OPERATOR_NOT_FOUND = [
         'code' => 6000,
         'msg' => '商戶不存在或密鑰錯誤'
