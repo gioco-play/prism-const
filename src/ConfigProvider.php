@@ -61,13 +61,6 @@ class ConfigProvider
                     // 建议默认配置放在 publish 文件夹中，文件命名和组件名称相同
                     'source'      => __DIR__ . '/../publish/services.php',  // 对应的配置文件路径
                     'destination' => BASE_PATH . '/config/autoload/services.php', // 复制为这个路径下的该文件
-                ],
-                [
-                    'id'          => 'cors',
-                    'description' => 'hyperf cors component', // 描述
-                    // 建议默认配置放在 publish 文件夹中，文件命名和组件名称相同
-                    'source'      => __DIR__ . '/../publish/cors.php',  // 对应的配置文件路径
-                    'destination' => BASE_PATH . '/config/autoload/cors.php', // 复制为这个路径下的该文件
                 ]
             ],
         ];
