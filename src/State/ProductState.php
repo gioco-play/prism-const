@@ -42,21 +42,21 @@ class ProductState {
 
     const LANGUAGE_NOT_EXIST = [
         'code' => 7204,
-        'msg' => '語系不存在'
+        'msg' => '語系不支援'
     ];
 
     const GAME_LANGUAGE_NOT_EXIST = [
         'code' => 7205,
-        'msg' => '遊戲語系不存在'
+        'msg' => '遊戲語系不支援'
     ];
 
     const CURRENCY_NOT_EXIST = [
         'code' => 7206,
-        'msg' => '幣別不存在'
+        'msg' => '幣別不支援'
     ];
 
     const GAME_CURRENCY_NOT_EXIST = [
         'code' => 7207,
-        'msg' => '遊戲幣別不存在'
+        'msg' => '遊戲幣別不支援'
     ];
 }
