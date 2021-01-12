@@ -18,12 +18,12 @@ namespace GiocoPlus\PrismConst\State;
  */
 class SystemState {
 
-    const MONGODB_FAIL_CONNECT  = [
+    const MONGODB_CONNECT_FAIL  = [
         'code' => 9999,
         'msg' => 'MONGODB 連結失敗'
     ];
 
-    const POSTGRES_FAIL_CONNECT  = [
+    const POSTGRES_CONNECT_FAIL  = [
         'code' => 9998,
         'msg' => 'POSTGRES 連結失敗'
     ];
