@@ -27,6 +27,16 @@ class TransactionState
         'msg' => '訂單已存在'
     ];
 
+    const BET_NOT_EXIST = [
+        'code' => 6002,
+        'msg' => '下注紀錄不存在'
+    ];
+
+    const BET_EXISTED = [
+        'code' => 6003,
+        'msg' => '下注紀錄已存在'
+    ];
+
     const PRODUCT_NEED_ACK = [
         'code' => 7100,
         'msg' => '產品尚未配置'
