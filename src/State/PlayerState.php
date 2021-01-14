@@ -18,12 +18,12 @@ namespace GiocoPlus\PrismConst\State;
  */
 class PlayerState {
 
-    const PLAYER_FREEZE = [
+    const FREEZE = [
         'code' => 6004,
         'msg' => '玩家凍結'
     ];
 
-    const PLAYER_BLOCK = [
+    const BLOCK = [
         'code' => 6005,
         'msg' => '玩家封鎖'
     ];
