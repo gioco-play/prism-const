@@ -37,11 +37,6 @@ class TransactionState
         'msg' => '下注紀錄已存在'
     ];
 
-    const PLAYER_FREEZE = [
-        'code' => 6004,
-        'msg' => '玩家凍結'
-    ];
-
     const PRODUCT_NEED_ACK = [
         'code' => 7100,
         'msg' => '產品尚未配置'
