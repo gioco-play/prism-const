@@ -20,5 +20,6 @@ return [
                 ]
             ];
         }
+        return $consumers;
     }),
 ];
