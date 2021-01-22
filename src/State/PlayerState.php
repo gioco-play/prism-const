@@ -28,4 +28,14 @@ class PlayerState {
         'msg' => '玩家封鎖'
     ];
 
+    const EXISTS = [
+        'code' => 6006,
+        'msg' => '玩家帳號已存在'
+    ];
+
+    const NOT_EXISTS = [
+        'code' => 6007,
+        'msg' => '玩家帳號不存在'
+    ];
+
 }
