@@ -10,5 +10,5 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 return [
-    Hyperf\DbConnection\Frequency::class => Hyperf\Pool\ConstantFrequency::class
+    'worker_num' => (int) env('WORKER_NUM', 20)
 ];
