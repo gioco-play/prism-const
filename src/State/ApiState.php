@@ -140,7 +140,7 @@ class ApiState {
 
     const GET_RECORD_TIME_RANGE = [
         'code' => 9601,
-        'msg' => '拉取時間範圍'
+        'msg' => '超出拉取時間範圍'
     ];
 
 }
