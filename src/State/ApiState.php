@@ -123,7 +123,7 @@ class ApiState {
         'msg' => '已停用'
     ];
 
-    const PLATFORM_MAINTAIN = [
+    const PLATFORM_VENDOR_MAINTAIN = [
         'code' => 9502,
         'msg' => '全平台遊戲維護中'
     ];
