@@ -59,4 +59,14 @@ class ProductState {
         'code' => 7207,
         'msg' => '遊戲幣別不支援'
     ];
+
+    const VENDOR_MAINTAIN = [
+        'code' => 7208,
+        'msg' => '遊戲商維護'
+    ];
+
+    const VENDOR_DECOMMISSION = [
+        'code' => 7209,
+        'msg' => '遊戲商下架'
+    ];
 }

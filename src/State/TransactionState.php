@@ -97,6 +97,16 @@ class TransactionState
         'msg' => '錢包初始化失敗'
     ];
 
+    const TRANS_TRANSFER_IN_OFF = [
+        'code' => 8108,
+        'msg' => '上分接口關閉'
+    ];
+
+    const TRANS_TRANSFER_OUT_OFF = [
+        'code' => 8109,
+        'msg' => '下分接口關閉'
+    ];
+
     const MAINTAIN = [
         'code' => 9500,
         'msg' => '維護中'
