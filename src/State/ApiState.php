@@ -78,6 +78,11 @@ class ApiState {
         'msg' => '請求方法不允許'
     ];
 
+    const REQUEST_TOO_FREQUENT  = [
+        'code' => 9102,
+        'msg' => '請求過於頻繁'
+    ];
+
     const IP_NOT_ALLOWED = [
         'code' => 9201,
         'msg' => 'IP存取限制'
