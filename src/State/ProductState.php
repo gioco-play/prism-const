@@ -72,6 +72,6 @@ class ProductState {
 
     const OPERATOR_GAME_LAUNCH_OFF = [
         'code' => 7210,
-        'msg' => '遊戲商下架'
+        'msg' => '商戶遊戲啟動關閉'
     ];
 }
