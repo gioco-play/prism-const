@@ -123,4 +123,14 @@ class ApiState {
         'msg' => '已停用'
     ];
 
+    const PLATFORM_MAINTAIN = [
+        'code' => 9502,
+        'msg' => '全平台遊戲維護中'
+    ];
+
+    const PLATFORM_OPERATOR_MAINTAIN = [
+        'code' => 9503,
+        'msg' => '全平台商戶維護中'
+    ];
+
 }
