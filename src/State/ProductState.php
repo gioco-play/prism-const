@@ -40,19 +40,14 @@ class ProductState {
         'msg' => '遊戲已封鎖'
     ];
 
-    const LANGUAGE_NOT_EXIST = [
+    const GAME_NOT_EXIST = [
         'code' => 7204,
-        'msg' => '語系不支援'
+        'msg' => '遊戲不存在'
     ];
 
     const GAME_LANGUAGE_NOT_EXIST = [
-        'code' => 7205,
-        'msg' => '遊戲語系不支援'
-    ];
-
-    const CURRENCY_NOT_EXIST = [
         'code' => 7206,
-        'msg' => '幣別不支援'
+        'msg' => '遊戲語系不支援'
     ];
 
     const GAME_CURRENCY_NOT_EXIST = [
@@ -60,18 +55,30 @@ class ProductState {
         'msg' => '遊戲幣別不支援'
     ];
 
+
+    const LANGUAGE_NOT_EXIST = [
+        'code' => 7301,
+        'msg' => '語系不支援'
+    ];
+
+    const CURRENCY_NOT_EXIST = [
+        'code' => 7302,
+        'msg' => '幣別不支援'
+    ];
+
+
     const VENDOR_MAINTAIN = [
-        'code' => 7208,
+        'code' => 7401,
         'msg' => '遊戲商維護'
     ];
 
     const VENDOR_DECOMMISSION = [
-        'code' => 7209,
+        'code' => 7402,
         'msg' => '遊戲商下架'
     ];
 
     const OPERATOR_GAME_LAUNCH_OFF = [
-        'code' => 7210,
+        'code' => 7403,
         'msg' => '商戶遊戲啟動關閉'
     ];
 }
