@@ -138,4 +138,9 @@ class ApiState {
         'msg' => '全平台商戶維護中'
     ];
 
+    const GET_RECORD_TIME_RANGE = [
+        'code' => 9601,
+        'msg' => '拉取時間範圍'
+    ];
+
 }
