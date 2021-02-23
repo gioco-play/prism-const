@@ -74,7 +74,7 @@ class TransactionState
 
     const TRANS_WALLET_EMPTY = [
         'code' => 8103,
-        'msg' => '钱包初始化失败'
+        'msg' => '钱包不存在'
     ];
 
     const TRANS_AMOUNT_ERROR = [
