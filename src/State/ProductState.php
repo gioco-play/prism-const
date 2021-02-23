@@ -20,6 +20,11 @@ namespace GiocoPlus\PrismConst\State;
  */
 class ProductState {
 
+    const PRODUCT_NEED_ACK = [
+        'code' => 7100,
+        'msg' => '產品尚未配置'
+    ];
+    
     const GAME_LAUNCH_FAIL = [
         'code' => 7200,
         'msg' => '遊戲啟動失敗'

@@ -28,7 +28,7 @@ class ApiResponse {
     public static function result($data = [], array $status = ApiState::SUCCESS) {
         $result = [
             'status' => $status['code'],
-            'message' => $status['msg']
+            'message' => __("ts.{$status['msg']}")
         ];
 
         $result['data'] = $data;

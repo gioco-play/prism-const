@@ -64,7 +64,7 @@ class ApiState {
     ];
 
     const VENDOR_REQUEST_FAIL = [
-        'code' => 7200,
+        'code' => 9000,
         'msg' => '產品商來源請求異常'
     ];
 
