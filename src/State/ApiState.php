@@ -118,24 +118,29 @@ class ApiState {
         'msg' => '帐号停权'
     ];
 
-    const MAINTAIN = [
+    const ONLINE = [
         'code' => 9500,
+        'msg' => '正常'
+    ];
+
+    const MAINTAIN = [
+        'code' => 9501,
         'msg' => '维护中'
     ];
 
     const DECOMMISSION = [
-        'code' => 9501,
+        'code' => 9502,
         'msg' => '已停用'
     ];
 
     const PLATFORM_VENDOR_MAINTAIN = [
-        'code' => 9502,
-        'msg' => '全平台游戏维护中'
+        'code' => 9503,
+        'msg' => '平台游戏维护中'
     ];
 
     const PLATFORM_OPERATOR_MAINTAIN = [
-        'code' => 9503,
-        'msg' => '全平台商户维护中'
+        'code' => 9504,
+        'msg' => '平台商户维护中'
     ];
 
     const GET_RECORD_TIME_RANGE = [
