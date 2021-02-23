@@ -143,4 +143,9 @@ class ApiState {
         'msg' => '超出拉取時間範圍'
     ];
 
+    const GET_RECORD_TIME_EARLY = [
+        'code' => 9602,
+        'msg' => '拉取時間須小於當前時間'
+    ];
+
 }
