@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace GiocoPlus\PrismConst\State;
 
 /**
- * Player常數
+ * Player常数
  * Class ApiState
  * @package GiocoPlus\PrismConst\Constant
  */
@@ -20,22 +20,22 @@ class PlayerState {
 
     const FREEZE = [
         'code' => 6004,
-        'msg' => '玩家凍結'
+        'msg' => '玩家冻结'
     ];
 
     const BLOCK = [
         'code' => 6005,
-        'msg' => '玩家封鎖'
+        'msg' => '玩家封锁'
     ];
 
     const EXISTS = [
         'code' => 6006,
-        'msg' => '玩家帳號已存在'
+        'msg' => '玩家帐号已存在'
     ];
 
     const NOT_EXISTS = [
         'code' => 6007,
-        'msg' => '玩家帳號不存在'
+        'msg' => '玩家帐号不存在'
     ];
 
 }

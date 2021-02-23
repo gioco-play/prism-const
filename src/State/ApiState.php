@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace GiocoPlus\PrismConst\State;
 
 /**
- * API 返回常數
+ * API 返回常数
  * Class ApiState
  * @package GiocoPlus\PrismConst\Constant
  */
@@ -20,7 +20,7 @@ class ApiState {
 
     const FAIL  = [
         'code' => 0,
-        'msg' => '失敗'
+        'msg' => '失败'
     ];
 
     const SUCCESS  = [
@@ -30,42 +30,42 @@ class ApiState {
 
     const FIELD_MISSING = [
         'code' => 2,
-        'msg' => '資料欄位有誤'
+        'msg' => '资料栏位有误'
     ];
 
     const DATA_EXIST = [
         'code' => 3,
-        'msg' => '資料已存在'
+        'msg' => '资料已存在'
     ];
 
     const DATA_NOT_EXIST = [
         'code' => 4,
-        'msg' => '資料不存在'
+        'msg' => '资料不存在'
     ];
 
     const UPDATE_FAIL = [
         'code' => 5,
-        'msg' => '更新失敗, 請檢查資料（若資料無異動視為更新失敗）'
+        'msg' => '更新失败, 请检查资料（若资料无异动视为更新失败）'
     ];
 
     const GAME_URL_EXPIRED = [
         'code' => 6,
-        'msg' => '遊戲連結已失效'
+        'msg' => '游戏连结已失效'
     ];
 
     const OPERATOR_NOT_FOUND = [
         'code' => 6000,
-        'msg' => '商戶不存在或密鑰錯誤'
+        'msg' => '商户不存在或密钥错误'
     ];
 
     const PRODUCT_NEED_ACK = [
         'code' => 7100,
-        'msg' => '產品尚未配置'
+        'msg' => '产品尚未配置'
     ];
 
     const VENDOR_REQUEST_FAIL = [
         'code' => 9000,
-        'msg' => '產品商來源請求異常'
+        'msg' => '产品商来源请求异常'
     ];
 
     const ROUTER_NOT_FOUND = [
@@ -75,12 +75,12 @@ class ApiState {
 
     const HTTP_METHOD_NOT_ALLOWED = [
         'code' => 9101,
-        'msg' => '請求方法不允許'
+        'msg' => '请求方法不允许'
     ];
 
     const REQUEST_TOO_FREQUENT  = [
         'code' => 9102,
-        'msg' => '請求過於頻繁'
+        'msg' => '请求过于频繁'
     ];
 
     const IP_NOT_ALLOWED = [
@@ -90,37 +90,37 @@ class ApiState {
 
     const IP_BLOCKED = [
         'code' => 9202,
-        'msg' => '黑名單IP存取限制'
+        'msg' => '黑名单IP存取限制'
     ];
 
     const ACT_PERMIT_DENY = [
         'code' => 9203,
-        'msg' => '操作權限不足'
+        'msg' => '操作权限不足'
     ];
 
     const JWT_AUTH_FAIL = [
         'code' => 9300,
-        'msg' => 'JWT認證失敗'
+        'msg' => 'JWT认证失败'
     ];
 
     const ADMIN_AUTH_FAIL = [
         'code' => 9400,
-        'msg' => '帳號或密碼錯誤'
+        'msg' => '帐号或密码错误'
     ];
 
     const ADMIN_OLD_PASS_FAIL = [
         'code' => 9401,
-        'msg' => '舊密碼錯誤'
+        'msg' => '旧密码错误'
     ];
 
     const ADMIN_FORBIDDEN = [
         'code' => 9402,
-        'msg' => '帳號停權'
+        'msg' => '帐号停权'
     ];
 
     const MAINTAIN = [
         'code' => 9500,
-        'msg' => '維護中'
+        'msg' => '维护中'
     ];
 
     const DECOMMISSION = [
@@ -130,22 +130,22 @@ class ApiState {
 
     const PLATFORM_VENDOR_MAINTAIN = [
         'code' => 9502,
-        'msg' => '全平台遊戲維護中'
+        'msg' => '全平台游戏维护中'
     ];
 
     const PLATFORM_OPERATOR_MAINTAIN = [
         'code' => 9503,
-        'msg' => '全平台商戶維護中'
+        'msg' => '全平台商户维护中'
     ];
 
     const GET_RECORD_TIME_RANGE = [
         'code' => 9601,
-        'msg' => '超出拉取時間範圍'
+        'msg' => '超出拉取时间范围'
     ];
 
     const GET_RECORD_TIME_EARLY = [
         'code' => 9602,
-        'msg' => '拉取時間須小於當前時間'
+        'msg' => '拉取时间须小于当前时间'
     ];
 
 }

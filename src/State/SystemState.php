@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace GiocoPlus\PrismConst\State;
 
 /**
- * 系統錯誤常數
+ * 系统错误常数
  * Class ApiState
  * @package GiocoPlus\PrismConst\Constant
  */
@@ -20,11 +20,11 @@ class SystemState {
 
     const MONGODB_CONNECT_FAIL  = [
         'code' => 9999,
-        'msg' => 'MONGODB 連結失敗'
+        'msg' => 'MONGODB 连结失败'
     ];
 
     const POSTGRES_CONNECT_FAIL  = [
         'code' => 9998,
-        'msg' => 'POSTGRES 連結失敗'
+        'msg' => 'POSTGRES 连结失败'
     ];
 }
