@@ -107,6 +107,12 @@ class TransactionState
         'msg' => '下分接口关闭'
     ];
 
+
+    const TRANS_TRANSFER_MIN_ERROR = [
+        'code' => 8110,
+        'msg' => '最低交易额限制'
+    ];
+
     const MAINTAIN = [
         'code' => 9500,
         'msg' => '维护中'
