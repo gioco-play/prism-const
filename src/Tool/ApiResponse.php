@@ -31,7 +31,9 @@ class ApiResponse {
             'message' => __("ts.{$status['msg']}")
         ];
 
-        $result['data'] = $data;
+        if (!empty($data)) {
+            $result['data'] = $data;
+        }
 
         return $result;
     }
