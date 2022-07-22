@@ -125,6 +125,6 @@ class TransactionState
 
     const VENDOR_DECIMAL_POINT_ERROR = [
         'code' => 7404,
-        'msg' => '游戏商仅支援至小数点后2位'
+        'msg' => '游戏商仅支援至小数点'
     ];
 }
