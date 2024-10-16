@@ -50,6 +50,11 @@ class ProductState {
         'msg' => '游戏不存在'
     ];
 
+    const GAME_CODE_IS_ONLY_FOR_BET_RECORD = [
+        'code' => 7205,
+        'msg' => '游戏代码仅用于投注记录'
+    ];
+
     const GAME_LANGUAGE_NOT_EXIST = [
         'code' => 7206,
         'msg' => '游戏语系不支援'
