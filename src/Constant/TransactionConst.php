@@ -64,4 +64,11 @@ class TransactionConst
      * 錢包之間 - 轉出
      */
     const WALLET_TRANSFER_OUT = 'wallet_transfer_out';
+
+    /**
+     * BONUS_TYPE
+     */
+    const BT_ACTIVITY = 'activity';
+    const BT_JACKPOT = 'jackpot';
+    const BT_TIP = 'tip';
 }
